@@ -229,6 +229,78 @@ export const AIResponseFormat = `
       };
     }`;
 
+export const Feedback = {
+  overallScore: 85,
+  ATS: {
+    score: 90,
+    tips: [
+      { type: "good", tip: "Strong keyword usage for ATS parsing" },
+      { type: "improve", tip: "Include more industry-specific terms" },
+      { type: "improve", tip: "Optimize job title consistency" },
+    ],
+  },
+  toneAndStyle: {
+    score: 80,
+    tips: [
+      {
+        type: "good",
+        tip: "Professional tone maintained",
+        explanation: "The language used is formal and professional throughout the document.",
+      },
+      {
+        type: "improve",
+        tip: "Add impact-driven statements",
+        explanation: "Include quantified achievements to make the writing more compelling.",
+      },
+    ],
+  },
+  content: {
+    score: 78,
+    tips: [
+      {
+        type: "good",
+        tip: "Relevant work experience",
+        explanation: "The resume includes roles closely aligned with the target job.",
+      },
+      {
+        type: "improve",
+        tip: "Add key achievements",
+        explanation: "Provide metrics or results to support your responsibilities.",
+      },
+    ],
+  },
+  structure: {
+    score: 82,
+    tips: [
+      {
+        type: "good",
+        tip: "Clear section headers",
+        explanation: "Each section is well-labeled and easy to navigate.",
+      },
+      {
+        type: "improve",
+        tip: "Balance white space",
+        explanation: "Adjust margins and spacing to improve readability.",
+      },
+    ],
+  },
+  skills: {
+    score: 88,
+    tips: [
+      {
+        type: "good",
+        tip: "Strong technical skills listed",
+        explanation: "Includes a good mix of hard and soft skills.",
+      },
+      {
+        type: "improve",
+        tip: "Highlight leadership skills",
+        explanation: "Include leadership or teamwork skills in a dedicated section.",
+      },
+    ],
+  },
+};
+
 export const prepareInstructions = ({
   jobTitle,
   jobDescription,
