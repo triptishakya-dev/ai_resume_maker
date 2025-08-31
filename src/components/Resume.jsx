@@ -1,13 +1,13 @@
-import ResumeCard from '@/components/ResumeCard'
 import { resumes } from '@/constants'
 import React from 'react'
+import ResumeCard from './ResumeCard'
 
 const Resume = () => {
   return (
      <section className="main-section">
         <div className="page-heading py-16">
-          <h1 className='max-sm:text-[3rem] text-6xl  text-gradient leading-tight xl:tracking-[-2px] font-semibold' >Track Your Application & Resume Ratings</h1>
-          <h2 className='max-sm:text-xl text-3xl text-black' >Review your submissions and check AI-powered feedback.</h2>
+          <h1>Track Your Application & Resume Ratings</h1>
+          <h2>Review your submissions and check AI-powered feedback.</h2>
         </div>
 
         {resumes.length > 0 && (
