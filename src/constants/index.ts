@@ -1,189 +1,103 @@
-import type { Resume } from "types";
 
-export const resumes: Resume[] = [
+export const resumeData = [
   {
     id: "1",
     companyName: "Google",
+    submittedDate: "25 Aug 2025",
     jobTitle: "Frontend Developer",
     imagePath: "/images/resume-1.png",
     resumePath: "/resumes/resume-1.pdf",
     feedback: {
       overallScore: 85,
-      ATS: {
-        score: 90,
-        tips: [],
-      },
-      toneAndStyle: {
-        score: 90,
-        tips: [],
-      },
-      content: {
-        score: 90,
-        tips: [],
-      },
-      structure: {
-        score: 90,
-        tips: [],
-      },
-      skills: {
-        score: 90,
-        tips: [],
-      },
+      ATS: { score: 90, tips: [] },
+      toneAndStyle: { score: 88, tips: [] },
+      content: { score: 84, tips: [] },
+      structure: { score: 82, tips: [] },
+      skills: { score: 86, tips: [] },
     },
   },
   {
     id: "2",
     companyName: "Microsoft",
+    submittedDate: "28 Aug 2025",
     jobTitle: "Cloud Engineer",
     imagePath: "/images/resume-2.png",
     resumePath: "/resumes/resume-2.pdf",
     feedback: {
-      overallScore: 55,
-      ATS: {
-        score: 90,
-        tips: [],
-      },
-      toneAndStyle: {
-        score: 90,
-        tips: [],
-      },
-      content: {
-        score: 90,
-        tips: [],
-      },
-      structure: {
-        score: 90,
-        tips: [],
-      },
-      skills: {
-        score: 90,
-        tips: [],
-      },
+      overallScore: 62,
+      ATS: { score: 70, tips: [] },
+      toneAndStyle: { score: 65, tips: [] },
+      content: { score: 60, tips: [] },
+      structure: { score: 58, tips: [] },
+      skills: { score: 59, tips: [] },
     },
   },
   {
     id: "3",
     companyName: "Apple",
+    submittedDate: "30 Aug 2025",
     jobTitle: "iOS Developer",
     imagePath: "/images/resume-3.png",
     resumePath: "/resumes/resume-3.pdf",
     feedback: {
-      overallScore: 75,
-      ATS: {
-        score: 90,
-        tips: [],
-      },
-      toneAndStyle: {
-        score: 90,
-        tips: [],
-      },
-      content: {
-        score: 90,
-        tips: [],
-      },
-      structure: {
-        score: 90,
-        tips: [],
-      },
-      skills: {
-        score: 90,
-        tips: [],
-      },
+      overallScore: 78,
+      ATS: { score: 80, tips: [] },
+      toneAndStyle: { score: 76, tips: [] },
+      content: { score: 79, tips: [] },
+      structure: { score: 75, tips: [] },
+      skills: { score: 77, tips: [] },
     },
   },
-
-    {
+  {
     id: "4",
-    companyName: "Google",
-    jobTitle: "Frontend Developer",
-    imagePath: "/images/resume-1.png",
-    resumePath: "/resumes/resume-1.pdf",
+    companyName: "Amazon",
+    submittedDate: "02 Sep 2025",
+    jobTitle: "Backend Developer",
+    imagePath: "/images/resume-3.png",
+    resumePath: "/resumes/resume-4.pdf",
     feedback: {
-      overallScore: 85,
-      ATS: {
-        score: 90,
-        tips: [],
-      },
-      toneAndStyle: {
-        score: 90,
-        tips: [],
-      },
-      content: {
-        score: 90,
-        tips: [],
-      },
-      structure: {
-        score: 90,
-        tips: [],
-      },
-      skills: {
-        score: 90,
-        tips: [],
-      },
+      overallScore: 81,
+      ATS: { score: 83, tips: [] },
+      toneAndStyle: { score: 79, tips: [] },
+      content: { score: 80, tips: [] },
+      structure: { score: 82, tips: [] },
+      skills: { score: 78, tips: [] },
     },
   },
   {
     id: "5",
-    companyName: "Microsoft",
-    jobTitle: "Cloud Engineer",
+    companyName: "Netflix",
+    submittedDate: "05 Sep 2025",
+    jobTitle: "UI/UX Designer",
     imagePath: "/images/resume-2.png",
-    resumePath: "/resumes/resume-2.pdf",
+    resumePath: "/resumes/resume-5.pdf",
     feedback: {
-      overallScore: 55,
-      ATS: {
-        score: 90,
-        tips: [],
-      },
-      toneAndStyle: {
-        score: 90,
-        tips: [],
-      },
-      content: {
-        score: 90,
-        tips: [],
-      },
-      structure: {
-        score: 90,
-        tips: [],
-      },
-      skills: {
-        score: 90,
-        tips: [],
-      },
+      overallScore: 69,
+      ATS: { score: 70, tips: [] },
+      toneAndStyle: { score: 72, tips: [] },
+      content: { score: 68, tips: [] },
+      structure: { score: 67, tips: [] },
+      skills: { score: 71, tips: [] },
     },
   },
   {
     id: "6",
-    companyName: "Apple",
-    jobTitle: "iOS Developer",
-    imagePath: "/images/resume-3.png",
-    resumePath: "/resumes/resume-3.pdf",
+    companyName: "Tesla",
+    submittedDate: "10 Sep 2025",
+    jobTitle: "AI Engineer",
+    imagePath: "/images/resume-1.png",
+    resumePath: "/resumes/resume-6.pdf",
     feedback: {
-      overallScore: 75,
-      ATS: {
-        score: 90,
-        tips: [],
-      },
-      toneAndStyle: {
-        score: 90,
-        tips: [],
-      },
-      content: {
-        score: 90,
-        tips: [],
-      },
-      structure: {
-        score: 90,
-        tips: [],
-      },
-      skills: {
-        score: 90,
-        tips: [],
-      },
+      overallScore: 92,
+      ATS: { score: 95, tips: [] },
+      toneAndStyle: { score: 90, tips: [] },
+      content: { score: 91, tips: [] },
+      structure: { score: 93, tips: [] },
+      skills: { score: 94, tips: [] },
     },
   },
-  
-  ];
+];
+
 
 export const AIResponseFormat = `
       interface Feedback {

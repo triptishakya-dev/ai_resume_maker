@@ -1,4 +1,5 @@
-"use client"
+"use client";
+
 import ATS from "@/components/ATS";
 import Details from "@/components/Details";
 import Summary from "@/components/Summary";
@@ -16,45 +17,55 @@ const Page = () => {
   }, []);
 
   return (
-    <main className="!pt-0">
-      <nav className="resume-nav flex items-center gap-2 p-2">
-        <Link
-          href="/"
-          className="flex flex-row items-center gap-2 border border-gray-200 rounded-lg p-2 shadow-sm"
-        >
-          <img src="/icons/back.svg" alt="logo" className="w-2.5 h-2.5" />
-          <span className="text-gray-800 text-sm font-semibold">
-            Back to HomePage
-          </span>
-        </Link>
-      </nav>
-
+    <main className="!pt-0 bg-gray-50 min-h-screen">
       <div className="flex flex-row w-full max-lg:flex-col-reverse">
-        <section className='flex flex-col gap-8 w-1/2 px-8 max-lg:w-full py-6 bg-[url("/images/bg-small.svg")] bg-cover h-[100vh] sticky top-0 items-center justify-center'>
+        {/* Left Section - Resume Preview + Back Button */}
+        <section className='flex flex-col gap-6 w-1/2 px-8 max-lg:w-full py-8 bg-[url("/images/bg-small.svg")] bg-cover h-screen sticky top-0 items-center justify-between border-r border-gray-200'>
+          
+          {/* Back Button Inside Resume Panel */}
+          <div className="w-full flex justify-start">
+            <Link
+              href="/"
+              className="flex items-center gap-2 px-4 py-2 border border-gray-200 rounded-lg hover:bg-gray-100 transition bg-white shadow-sm"
+            >
+              <img src="/icons/back.svg" alt="logo" className="w-3 h-3" />
+              <span className="text-gray-800 text-sm font-semibold">
+                Back to Homepage
+              </span>
+            </Link>
+          </div>
+
+          {/* Resume Preview */}
           {imageUrl && resumeUrl && (
-            <div className="animate-in fade-in duration-1000 h-[90%] w-fit">
+            <div className="animate-in fade-in duration-1000 h-[85%] w-fit shadow-lg rounded-2xl overflow-hidden border border-gray-200">
               <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
                 <img
                   src={imageUrl}
                   alt="resume"
-                  className="w-full h-full object-contain rounded-2xl"
+                  className="w-full h-full object-contain"
                   title="resume"
                 />
               </a>
             </div>
           )}
         </section>
-        <section className="flex flex-col gap-8 w-1/2 px-8 max-lg:w-full py-6 text-black">
-          <h2 className="text-4xl text-black font-bold ">Resume Review</h2>
+
+        {/* Right Section - Review Details */}
+        <section className="flex flex-col gap-6 w-1/2 px-8 max-lg:w-full py-8 text-black">
+          <h2 className="text-4xl font-bold text-gray-900 tracking-tight">
+            Resume Review
+          </h2>
+
           {feedback ? (
             <div className="flex flex-col gap-8 animate-in fade-in duration-1000">
-              {/* Replace with your actual Summary component */}
               <Summary feedback={feedback} />
               <ATS score={feedback.ATS.score} suggestions={feedback.ATS.tips} />
-              <Details feedback={feedback}/>
+              <Details feedback={feedback} />
             </div>
           ) : (
-            <img src="/images/resume-scan-2.gif" className="w-full " alt="" />
+            <div className="flex justify-center">
+              <img src="/images/resume-scan-2.gif" className="w-56" alt="loading" />
+            </div>
           )}
         </section>
       </div>

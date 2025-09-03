@@ -24,8 +24,11 @@ export default function RootLayout({ children }) {
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          <div className="bg-[url('/images/bg-main.svg')] bg-cover    bg-no-repeat bg-center pt-10">
-            <Navbar />
+          <div className="bg-[url('/images/bg-main.svg')] bg-cover    bg-no-repeat bg-center  ">
+          <div className="py-10">
+           <Navbar />
+          </div>
+           
             {children}
             <Footer/>
           </div>
