@@ -12,7 +12,7 @@ export async function POST() {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
       path: "/",
-      expires: new Date(0), // Expire immediately
+      expires: new Date(0), // Expire immediately 
     });
 
     return response; // ✅ return the response

@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
-import { Prisma } from "@/generated/prisma";
-
+import  {prisma}  from "@/lib/prisma"; 
 
 
 export async function POST(req) {
@@ -11,7 +10,11 @@ export async function POST(req) {
     console.log("Request body received:", body);
 
     const { name, email, password } = body;
-    console.log("Parsed data:", { name, email, password: password ? "***" : null });
+    console.log("Parsed data:", {
+      name,
+      email,
+      password: password,
+    });
 
     if (!name || !email || !password) {
       console.log("Validation failed: Missing fields");
@@ -23,7 +26,7 @@ export async function POST(req) {
 
     // check if user already exists
     console.log("Checking if user already exists...");
-    const existingUser = await Prisma.user.findUnique({
+    const existingUser = await prisma.user.findUnique({
       where: { email },
     });
     console.log("Existing user:", existingUser);
