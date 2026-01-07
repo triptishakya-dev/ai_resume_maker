@@ -1,5 +1,4 @@
 "use client";
-import Navbar from "@/components/Navbar";
 import React, { useState } from "react";
 import { FiUpload, FiFile } from "react-icons/fi";
 
@@ -8,9 +7,40 @@ const Page = () => {
   const [statusText, setStatusText] = useState("");
   const [files, setFiles] = useState([]);
 
-  const handleSubmit = (e) => {
+  const [CompanyName, setCompanyName] = useState("");
+  const [jobTitle, setJobTitle] = useState("");
+  const [jobDescription, setJobDescription] = useState("");
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsProcessing(true);
+    setStatusText("Processing...");
+
+    const formData = new FormData(e.target);
+    if (files.length > 0) {
+      formData.append("file", files[0]);
+    }
+
+    try {
+      const response = await fetch("/api/resumeDetails", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log("Success:", data);
+        setStatusText("Analysis Complete");
+      } else {
+        console.error("Error:", response.statusText);
+        setStatusText("Failed to analyze resume.");
+        setIsProcessing(false);
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setStatusText("An error occurred.");
+      setIsProcessing(false);
+    }
   };
 
   const handleFileChange = (e) => {
@@ -70,6 +100,8 @@ const Page = () => {
                   placeholder="company-name"
                   id="company-name"
                   className="w-full p-4 rounded-2xl bg-white focus:outline-none shadow-inner text-black font-medium"
+                  value={CompanyName}
+                  onChange={(e) => setCompanyName(e.target.value)}
                 />
               </div>
 
@@ -84,6 +116,8 @@ const Page = () => {
                   placeholder="job-title"
                   id="job-title"
                   className="w-full p-4 rounded-2xl bg-white focus:outline-none shadow-inner text-black font-medium"
+                  value={jobTitle}
+                  onChange={(e) => setJobTitle(e.target.value)}
                 />
               </div>
 
@@ -98,6 +132,8 @@ const Page = () => {
                   placeholder="job-discription"
                   id="job-discription"
                   className="w-full p-4 rounded-2xl bg-white focus:outline-none shadow-inner text-black font-medium"
+                  value={jobDescription}
+                  onChange={(e) => setJobDescription(e.target.value)}
                 />
               </div>
 
