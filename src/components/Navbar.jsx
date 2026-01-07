@@ -30,10 +30,10 @@ const Navbar = () => {
           "Content-Type": "application/json",
         },
       });
+      window.location.reload(); // ✅ this reloads the page
 
       if (res.ok) {
         console.log("User logged out successfully");
-        window.location.reload(); // ✅ this reloads the page
       } else {
         const data = await res.json();
         console.error("Logout failed:", data.msg || "Unknown error");
