@@ -1,0 +1,133 @@
+{
+  "id": "cc147cf3-1224-49be-beed-42088b52ab19",
+  "companyName": "Alucor",
+  "jobTitle": "software developer",
+  "jobDescription": "Full Stack Developer with 2+ years of hands-on experience building scalable web apps using React, Next.js, Node.js, and PostgreSQL.",
+  "resumeUrl": "/uploads/cc147cf3-1224-49be-beed-42088b52ab19.pdf",
+  "userId": "ab8b90c1-e91b-45c6-a5b8-5a6f3b77c89a",
+  "analysisResult": {
+    "overallScore": 78,
+    "ATS": {
+      "score": 90,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Strong Keyword Density: The resume effectively incorporates keywords from the job description like 'Full Stack Developer', 'React', 'Next.js', 'Node.js', and 'PostgreSQL' (in summary/skills)."
+        },
+        {
+          "type": "good",
+          "tip": "Standard Formatting: The resume uses clear, standard headings and a clean layout, making it highly parsable by most ATS."
+        },
+        {
+          "type": "improve",
+          "tip": "Explicitly Demonstrate Core Database: While PostgreSQL is listed in your skills and summary, it's not explicitly mentioned as the primary database used in most of your projects. For a JD specifically requesting PostgreSQL experience, ensure you highlight where you've used it in your project descriptions to maximize ATS recognition."
+        },
+        {
+          "type": "improve",
+          "tip": "Clarify Experience Type: The summary states '2 years of hands-on experience', but your graduation year (2024) suggests this is likely project-based rather than professional full-time experience. Rephrase to 'Demonstrated 2+ years of hands-on experience through extensive projects' or similar to accurately reflect the nature of your experience and avoid potential disqualification by ATS that prioritize professional experience dates."
+        }
+      ]
+    },
+    "toneAndStyle": {
+      "score": 90,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Excellent Use of Action Verbs",
+          "explanation": "Your project descriptions consistently use strong action verbs (e.g., 'Built', 'Integrated', 'Optimized', 'Engineered') which conveys impact and proactivity, enhancing the professional tone."
+        },
+        {
+          "type": "good",
+          "tip": "Professional and Confident Tone",
+          "explanation": "The language throughout the resume, especially in the summary and project descriptions, is professional, direct, and confident, effectively showcasing your capabilities."
+        },
+        {
+          "type": "good",
+          "tip": "Concise and Impactful Bullet Points",
+          "explanation": "Each bullet point in your project section is concise and focuses on achievements and impact, making the resume easy to scan and understand your contributions."
+        },
+        {
+          "type": "improve",
+          "tip": "Ensure Consistent Terminology",
+          "explanation": "Review for minor inconsistencies, such as 'Shaden' which is likely a typo for 'Shadcn UI'. Consistent and accurate terminology reflects attention to detail."
+        }
+      ]
+    },
+    "content": {
+      "score": 80,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Strong Portfolio of Relevant Projects",
+          "explanation": "Your projects are highly relevant to a Full Stack Developer role, showcasing a breadth of skills from front-end to back-end, including modern technologies and concepts like AI, RAG, and scalable deployments."
+        },
+        {
+          "type": "good",
+          "tip": "Quantified Achievements",
+          "explanation": "Many project bullets describe quantifiable outcomes (e.g., 'low-latency streaming', 'fast PDF retrieval', 'reduce generation time', 'improve content accuracy'), which powerfully demonstrates your impact and effectiveness."
+        },
+        {
+          "type": "improve",
+          "tip": "Reinforce Core Database Experience",
+          "explanation": "Given the job description's explicit mention of PostgreSQL, it's crucial to elaborate on your hands-on experience with it within your project descriptions. Currently, MongoDB is more frequently highlighted. Add specific details about using PostgreSQL (perhaps with Prisma) in relevant projects."
+        },
+        {
+          "type": "improve",
+          "tip": "Address Non-CS Degree and Experience Framing",
+          "explanation": "The 'Bachelor of Arts' for a software developer role might be a red flag for some recruiters. While your projects and extracurriculars strongly compensate, consider adding a brief 'Relevant Coursework' section under Education if applicable, or framing your experience (as suggested in ATS tips) to proactively address the gap in formal experience dates versus claimed experience years."
+        }
+      ]
+    },
+    "structure": {
+      "score": 95,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Clear and Readable Layout",
+          "explanation": "The resume has an excellent visual hierarchy, with clear headings, sufficient white space, and well-organized sections, making it very easy to read and navigate."
+        },
+        {
+          "type": "good",
+          "tip": "Logical Section Order",
+          "explanation": "The arrangement of sections (Summary, Education, Technical Skills, Projects, Extracurricular Activities) follows a conventional and effective flow, guiding the reader through your qualifications logically."
+        },
+        {
+          "type": "improve",
+          "tip": "Remove Redundant Skill Entries",
+          "explanation": "Skills like 'HTML, CSS, JavaScript, Typescript' appear under both 'Web Technologies' and 'Frontend Frameworks & Styling'. Consolidate these to avoid repetition and make the skills section more succinct."
+        },
+        {
+          "type": "improve",
+          "tip": "Minor Typographical Correction",
+          "explanation": "Correct 'Shaden' to 'Shadcn UI' under 'Frontend Frameworks & Styling' to maintain professionalism and accuracy in your technical vocabulary."
+        }
+      ]
+    },
+    "skills": {
+      "score": 85,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Comprehensive and Relevant Skillset",
+          "explanation": "Your technical skills list is extensive and directly aligns with the requirements of a Full Stack Developer, covering front-end, back-end, databases, cloud, and DevOps tools."
+        },
+        {
+          "type": "good",
+          "tip": "Well-Categorized Skills",
+          "explanation": "The categorization of skills (Web Technologies, Frontend Frameworks, Backend & APIs, Database, Cloud & DevOps, Tools) makes it easy for recruiters to quickly identify your expertise in different areas."
+        },
+        {
+          "type": "improve",
+          "tip": "Validate PostgreSQL Proficiency through Projects",
+          "explanation": "While PostgreSQL is listed as a skill, its presence in your project descriptions is minimal. To solidify your claim, explicitly detail how you've utilized PostgreSQL (e.g., schema design, complex queries, performance optimization) in at least one or two of your featured projects, especially since it's a key requirement in the JD."
+        },
+        {
+          "type": "improve",
+          "tip": "Consolidate and Refine Skill List",
+          "explanation": "As noted, 'HTML, CSS, JavaScript, Typescript' are listed twice. Merge these or rephrase categories to eliminate redundancy and present your skills more efficiently. Also, ensure all listed technologies are current and accurately spelled (e.g., 'Shadcn UI')."
+        }
+      ]
+    }
+  },
+  "createdAt": "2026-01-09T19:21:47.136Z"
+}
