@@ -25,11 +25,11 @@ export async function POST(req) {
       "Content-Type": "application/pdf",
     };
 
-    const prompt = prepareInstructions({
-      jobTitle,
-      jobDescription,
-      AIResponseFormat,
-    });
+    // const prompt = prepareInstructions({
+    //   jobTitle,
+    //   jobDescription,
+    //   AIResponseFormat,
+    // });
 
     const result = await model.generateContent([
       {
