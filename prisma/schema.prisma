@@ -33,6 +33,7 @@ model ResumeDetails {
   resumeUrl       String
   userId         String   // foreign key column
   user           User     @relation(fields: [userId], references: [id]) // relation field
+  analysisResult Json?    // Stores the AI analysis result
 
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
