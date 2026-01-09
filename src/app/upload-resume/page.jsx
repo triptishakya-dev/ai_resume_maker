@@ -1,8 +1,10 @@
 "use client";
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 import { FiUpload, FiFile } from "react-icons/fi";
 
 const Page = () => {
+  const router = useRouter();
   const [isProcessing, setIsProcessing] = useState(false);
   const [statusText, setStatusText] = useState("");
   const [files, setFiles] = useState([]);
@@ -31,6 +33,7 @@ const Page = () => {
         const data = await response.json();
         console.log("Success:", data);
         setStatusText("Analysis Complete");
+        router.push(`/resume/${data.id}`);
       } else {
         console.error("Error:", response.statusText);
         setStatusText("Failed to analyze resume.");
