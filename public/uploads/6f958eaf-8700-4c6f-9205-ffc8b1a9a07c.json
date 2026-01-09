@@ -1,0 +1,138 @@
+{
+  "id": "6f958eaf-8700-4c6f-9205-ffc8b1a9a07c",
+  "companyName": "Alucor",
+  "jobTitle": "software developer",
+  "jobDescription": "Full Stack Developer with 2+ years of hands-on experience building scalable web apps using React, Next.js, Node.js, and PostgreSQL.",
+  "resumeUrl": "/uploads/6f958eaf-8700-4c6f-9205-ffc8b1a9a07c.pdf",
+  "userId": "ab8b90c1-e91b-45c6-a5b8-5a6f3b77c89a",
+  "analysisResult": {
+    "overallScore": 65,
+    "ATS": {
+      "score": 90,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "High Keyword Density: The resume effectively incorporates keywords from the job description like 'Full Stack Developer,' 'React,' 'Next.js,' 'Node.js,' 'PostgreSQL,' 'scalable web apps,' and 'production-grade,' making it highly parsable by ATS."
+        },
+        {
+          "type": "good",
+          "tip": "Standard Formatting: The clear headings, standard font, and logical sectioning ensure that the ATS can easily extract information without errors."
+        },
+        {
+          "type": "good",
+          "tip": "Relevant Skills Section: The detailed technical skills section is well-categorized and rich with keywords, increasing the chances of matching against skill requirements."
+        },
+        {
+          "type": "improve",
+          "tip": "Clarify 'Shaden': While likely Shadcn/UI, 'Shaden' might not be recognized consistently by all ATS as a standard technology. Consider writing it as 'Shadcn/UI' for better ATS parsing and clarity."
+        }
+      ]
+    },
+    "toneAndStyle": {
+      "score": 85,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Professional and Confident Tone",
+          "explanation": "The language used throughout the resume is professional, confident, and conveys a strong sense of technical capability. The summary is particularly effective in establishing this tone from the outset."
+        },
+        {
+          "type": "good",
+          "tip": "Strong Action Verbs",
+          "explanation": "Many bullet points begin with powerful action verbs such as 'Built,' 'Integrated,' 'Optimized,' 'Implemented,' and 'Engineered,' which effectively highlight accomplishments and responsibilities."
+        },
+        {
+          "type": "good",
+          "tip": "Concise and Clear Language",
+          "explanation": "The descriptions are concise, avoiding unnecessary jargon where plain language suffices, making the resume easy to read and understand without sacrificing technical detail."
+        },
+        {
+          "type": "improve",
+          "tip": "Consistency in Punctuation",
+          "explanation": "While generally good, ensure consistent use of periods at the end of all bullet points. For example, some project bullets end with a period, while others do not. Consistent punctuation enhances professionalism."
+        }
+      ]
+    },
+    "content": {
+      "score": 60,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Strong Alignment with Job Description in Summary",
+          "explanation": "The summary is excellent, directly addressing the '2+ years of hands-on experience,' 'scalable web apps,' and specific technologies (React, Next.js, Node.js, PostgreSQL) mentioned in the job description. This is a powerful opening."
+        },
+        {
+          "type": "good",
+          "tip": "Impactful Project Descriptions",
+          "explanation": "The projects section is the strongest part of the resume, showcasing significant technical achievements and demonstrating experience with relevant technologies. Phrases like 'scalable AI-driven interview platform,' 'high-accuracy RAG pipeline,' and 'production-grade deployment platform' directly address the JD's requirements for 'scalable web apps'."
+        },
+        {
+          "type": "improve",
+          "tip": "Address Education Mismatch",
+          "explanation": "The 'Bachelor of Arts' degree without an explicit technical focus (e.g., Computer Science, Engineering, or a minor) is a significant red flag for a 'Software Developer' role. This could lead to immediate disqualification by some recruiters or ATS filters. You must clearly explain how you acquired your robust technical skills (e.g., self-taught, bootcamps, online courses) and perhaps add relevant coursework or achievements under your education or a new 'Self-Taught / Bootcamp' section to bridge this gap."
+        },
+        {
+          "type": "improve",
+          "tip": "Quantify Achievements More Specifically",
+          "explanation": "While many project bullets mention 'optimized,' 'reduced generation time,' or 'improved content accuracy,' adding specific metrics would significantly strengthen your claims. For example, instead of 'optimized API workflows to reduce generation time,' state 'optimized API workflows, reducing generation time by X%.' This adds concrete evidence of impact."
+        },
+        {
+          "type": "improve",
+          "tip": "Clarify '2+ Years of Experience'",
+          "explanation": "The summary claims '2+ years of hands-on experience,' which the projects attempt to demonstrate. However, without a dedicated 'Work Experience' section showing professional employment, or clearer indication of when these projects were completed relative to your graduation, this claim might be viewed with skepticism, especially given the BA degree. Consider creating an 'Experience' section where you can list these projects with more context, possibly denoting them as 'Independent Projects' or 'Personal Ventures' and providing a timeframe if they represent dedicated periods of development equivalent to professional work."
+        }
+      ]
+    },
+    "structure": {
+      "score": 80,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Clear and Logical Flow",
+          "explanation": "The resume follows a standard and logical structure (Summary, Education, Skills, Projects, Extracurriculars), making it easy to navigate and find information quickly."
+        },
+        {
+          "type": "good",
+          "tip": "Effective Use of Headings and White Space",
+          "explanation": "The use of bold headings and appropriate white space creates a clean, professional look and improves readability. Important sections stand out."
+        },
+        {
+          "type": "good",
+          "tip": "Contact Information Visibility",
+          "explanation": "Contact details, including LinkedIn, GitHub, email, and portfolio, are prominently displayed at the top, making it easy for recruiters to connect and view supplementary work."
+        },
+        {
+          "type": "improve",
+          "tip": "Consider Adding a 'Work Experience' Section",
+          "explanation": "Even if the experience comes from extensive personal projects or freelance work, framing it under an 'Experience' section (e.g., 'Independent Projects Lead' or 'Freelance Developer') could give more weight to the '2+ years hands-on experience' claim than solely relying on a 'Projects' section, especially without a traditional CS background."
+        }
+      ]
+    },
+    "skills": {
+      "score": 95,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Excellent Alignment with Job Description",
+          "explanation": "The skills section perfectly matches the job description's technical requirements, listing React, Next.js, Node.js, and PostgreSQL prominently, alongside other highly relevant technologies."
+        },
+        {
+          "type": "good",
+          "tip": "Comprehensive and Categorized",
+          "explanation": "Skills are well-organized into logical categories (Web Technologies, Frontend, Backend, Database, Cloud & DevOps, Tools), making it easy for a recruiter to quickly assess your technical breadth."
+        },
+        {
+          "type": "good",
+          "tip": "Demonstrates Modern Tech Stack Proficiency",
+          "explanation": "The inclusion of modern frameworks, libraries, and tools (e.g., Tailwind CSS, Framer Motion, Prisma, Docker, AWS services) shows you are up-to-date with current industry standards and practices."
+        },
+        {
+          "type": "improve",
+          "tip": "Specify Experience Level for Key Technologies",
+          "explanation": "While your projects implicitly demonstrate proficiency, explicitly stating your comfort level (e.g., 'Expert,' 'Proficient,' 'Familiar') with core technologies like React, Node.js, and PostgreSQL could be beneficial for some recruiters, though it's often omitted in favor of demonstrated experience."
+        }
+      ]
+    }
+  },
+  "createdAt": "2026-01-09T19:18:11.183Z"
+}
