@@ -65,6 +65,7 @@ export async function POST(req) {
       jobDescription,
       AIResponseFormat,
     });
+    
 
     const response = await ai.models.generateContent({
       model: "gemini-2.5-flash",
@@ -114,7 +115,7 @@ export async function POST(req) {
 
     fs.writeFileSync(jsonFilePath, JSON.stringify(dataToSave, null, 2));
 
-    return NextResponse.json({ id: fileId }, { status: 200 });
+    return NextResponse.json({ data: dataToSave }, { status: 200 });
 
   } catch (error) {
     console.error("Error generating content:", error);
