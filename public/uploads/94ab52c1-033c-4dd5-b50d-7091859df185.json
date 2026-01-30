@@ -1,0 +1,133 @@
+{
+  "id": "94ab52c1-033c-4dd5-b50d-7091859df185",
+  "companyName": "Alucor",
+  "jobTitle": "software developer",
+  "jobDescription": "jgghcghhjc",
+  "resumeUrl": "/uploads/94ab52c1-033c-4dd5-b50d-7091859df185.pdf",
+  "userId": "3931766a-5aa4-4353-b157-779ae3608626",
+  "analysisResult": {
+    "overallScore": 88,
+    "ATS": {
+      "score": 92,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Strong Keyword Density"
+        },
+        {
+          "type": "good",
+          "tip": "Parseable Format"
+        },
+        {
+          "type": "improve",
+          "tip": "Align with Specific Job Description"
+        },
+        {
+          "type": "improve",
+          "tip": "Minimize Redundant Keywords"
+        }
+      ]
+    },
+    "toneAndStyle": {
+      "score": 85,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Professional and Concise Language",
+          "explanation": "The language used throughout the resume is professional and to the point. Action verbs are employed effectively, particularly in the projects section, which helps convey impact."
+        },
+        {
+          "type": "good",
+          "tip": "Confident and Impactful Summary",
+          "explanation": "The summary quickly highlights relevant experience, key technologies, and desirable soft skills (efficient, secure, user-centric, debugging, problem-solving), setting a strong tone for the resume."
+        },
+        {
+          "type": "improve",
+          "tip": "Enhance Quantifiable Impact",
+          "explanation": "While many achievements are stated, adding more specific metrics (e.g., 'reduced generation time by X%', 'improved content accuracy by Y%') would further strengthen the impact and make the resume more compelling. Even estimates can be helpful."
+        },
+        {
+          "type": "improve",
+          "tip": "Slight Refinement of Headings",
+          "explanation": "The 'Summary - Full Stack Developer' heading is a bit redundant as 'Summary' is usually sufficient, and the content itself makes it clear you're a Full Stack Developer. Consider simply 'Summary' or 'Professional Summary'."
+        }
+      ]
+    },
+    "content": {
+      "score": 90,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Relevant and Detailed Projects",
+          "explanation": "The projects section is the strongest part of this resume. Each project is highly relevant to a software developer role, clearly lists technologies, and provides detailed, impactful descriptions of contributions and achievements. The inclusion of 'Source Code' and 'Live Demo' links is excellent."
+        },
+        {
+          "type": "good",
+          "tip": "Strong Technical Foundation",
+          "explanation": "The summary and technical skills sections clearly demonstrate a comprehensive understanding of full-stack development, covering frontend, backend, databases, cloud, and DevOps tools."
+        },
+        {
+          "type": "improve",
+          "tip": "Quantify Achievements More Broadly",
+          "explanation": "While some phrases like 'optimized system workflow' are good, aim to quantify more outcomes across all project bullets. For example, 'optimized API workflows to reduce generation time and improve content accuracy' could specify by how much. This adds concrete evidence of impact."
+        },
+        {
+          "type": "improve",
+          "tip": "Elaborate on Extracurricular Impact",
+          "explanation": "The extracurricular activities are great to include, showing initiative and continuous learning. To further strengthen them, briefly explain the impact or significance of publishing NPM packages (e.g., 'X downloads', 'Y stars on GitHub') or contributing to open-source projects (e.g., 'resolved Z issues', 'contributed to X features')."
+        }
+      ]
+    },
+    "structure": {
+      "score": 90,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Clear and Logical Flow",
+          "explanation": "The resume follows a standard, logical structure: contact information, summary, education, skills, projects, and extracurriculars. This makes it easy for recruiters to quickly find key information."
+        },
+        {
+          "type": "good",
+          "tip": "Excellent Readability and Conciseness",
+          "explanation": "The resume is well-organized with clear headings, consistent bullet points, and appropriate white space, making it highly readable. It's also concise, fitting all relevant information on a single page, which is ideal for someone with 2 years of experience."
+        },
+        {
+          "type": "improve",
+          "tip": "Refine Technical Skills Categorization",
+          "explanation": "There's a slight overlap in 'Web Technologies' and 'Frontend Frameworks & Styling' where 'HTML, CSS, JavaScript, TypeScript' appear in both. Consider consolidating or making 'Web Technologies' more general if 'Frontend Frameworks & Styling' is meant to list specific libraries/frameworks exclusively."
+        },
+        {
+          "type": "improve",
+          "tip": "Ensure Consistent Date Formatting",
+          "explanation": "The date range for education is '2019 – 2024'. While clear, for other sections (like projects if they were duration-based), ensuring a consistent MM/YYYY or YYYY format would be ideal. (Not an issue here as projects don't have dates, but a general tip)."
+        }
+      ]
+    },
+    "skills": {
+      "score": 95,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Comprehensive and Relevant Skillset",
+          "explanation": "The skills section is very strong, covering a wide range of technologies essential for a full-stack developer role, including frontend, backend, databases, cloud, and development tools. All listed skills are highly relevant to the target job."
+        },
+        {
+          "type": "good",
+          "tip": "Clear Categorization",
+          "explanation": "Skills are logically grouped into categories like 'Web Technologies', 'Frontend Frameworks & Styling', 'Backend & APIs', 'Database', 'Cloud & DevOps', and 'Tools'. This makes it easy for an ATS and human reader to quickly grasp the breadth of your capabilities."
+        },
+        {
+          "type": "good",
+          "tip": "Demonstrated Application of Skills",
+          "explanation": "Crucially, nearly all skills listed are actively used and demonstrated within the projects section, providing concrete evidence of practical experience rather than just theoretical knowledge."
+        },
+        {
+          "type": "improve",
+          "tip": "Avoid Redundant Skill Listing",
+          "explanation": "As noted, 'HTML, CSS, JavaScript, Typescript' are listed under 'Web Technologies' and then again when listing 'Frontend Frameworks & Styling'. It's generally understood that frontend frameworks build upon these core web technologies, so listing them twice is unnecessary and slightly inflates keyword density in a less impactful way."
+        }
+      ]
+    }
+  },
+  "createdAt": "2026-01-15T18:01:28.604Z"
+}
