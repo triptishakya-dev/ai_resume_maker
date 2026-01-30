@@ -1,0 +1,137 @@
+{
+  "id": "efb89622-0043-4b60-a6ab-517df8f56d5c",
+  "companyName": "alucor",
+  "jobTitle": "software developer",
+  "jobDescription": "qwertyuiopasdfghjklzxcvbnm",
+  "resumeUrl": "/uploads/efb89622-0043-4b60-a6ab-517df8f56d5c.pdf",
+  "userId": "3931766a-5aa4-4353-b157-779ae3608626",
+  "analysisResult": {
+    "overallScore": 85,
+    "ATS": {
+      "score": 90,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Clear Headings and Standard Sections",
+          "explanation": "The resume uses standard headings like 'Summary', 'Education', 'Technical Skills', 'Projects', and 'Extracurricular Activities', which are easily parsable by ATS. The categorization within 'Technical Skills' is also excellent for ATS keyword matching."
+        },
+        {
+          "type": "good",
+          "tip": "Strong Keyword Density",
+          "explanation": "The resume is rich with relevant keywords (e.g., React.js, Next.js, Node.js, PostgreSQL, Docker, AWS, APIs, LLMs, AI, RAG) that align perfectly with a modern 'software developer' role. These keywords are naturally integrated into the summary, skills, and project descriptions, which boosts ATS ranking."
+        },
+        {
+          "type": "improve",
+          "tip": "Tailor to Specific Job Description",
+          "explanation": "While the resume is strong generally, for optimal ATS performance, always tailor your 'Summary' and the descriptions within your 'Projects' to explicitly match keywords and phrases from the target job description. Even with a generic JD, researching common requirements for 'software developer' roles at the specific company can help fine-tune keyword usage."
+        },
+        {
+          "type": "improve",
+          "tip": "Quantify Impact More Explicitly",
+          "explanation": "While some quantifiable achievements are present, ensure that every bullet point, especially in projects, clearly articulates the impact and results using numbers, percentages, or measurable outcomes. For instance, 'Optimized inference workflow for fast, accurate, and scalable resume analysis' could become 'Optimized inference workflow, reducing processing time by X% and improving accuracy by Y%.' This helps ATS identify high-impact contributions."
+        }
+      ]
+    },
+    "toneAndStyle": {
+      "score": 90,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Professional and Confident Tone",
+          "explanation": "The tone is professional, confident, and demonstrates a clear understanding of the full-stack development landscape. Action verbs are used effectively throughout the project descriptions, conveying proactive contributions."
+        },
+        {
+          "type": "good",
+          "tip": "Concise and Impactful Language",
+          "explanation": "The language is concise and avoids jargon where possible, focusing on impact. Bullet points are well-crafted to highlight achievements rather than just responsibilities."
+        },
+        {
+          "type": "improve",
+          "tip": "Refine Summary for Brevity",
+          "explanation": "The 'Summary' is strong but slightly long. Consider condensing it to 3-4 impactful lines to make it even more digestible for recruiters who scan resumes quickly. Ensure every word adds significant value."
+        },
+        {
+          "type": "improve",
+          "tip": "Consistency in Punctuation",
+          "explanation": "Most bullet points end without punctuation, which is a common and acceptable style. However, ensure this is consistent throughout the entire resume. For example, some 'good' tips in the 'good' section don't have periods but the 'improve' tips do. Maintaining a uniform style enhances professionalism."
+        }
+      ]
+    },
+    "content": {
+      "score": 85,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Strong Project Descriptions",
+          "explanation": "The 'Projects' section is the strongest part of the resume, showcasing diverse and complex applications. Each project clearly outlines technologies used and key accomplishments, providing concrete evidence of skills."
+        },
+        {
+          "type": "good",
+          "tip": "Relevant Extracurricular Activities",
+          "explanation": "The 'Extracurricular Activities' section adds significant value by demonstrating initiative, community engagement, and a passion for continuous learning and contribution, which are highly attractive qualities for a software developer role."
+        },
+        {
+          "type": "improve",
+          "tip": "Enhance Quantifiable Achievements",
+          "explanation": "While good attempts at quantification are present, strive to add more specific metrics and results across all projects. For example, 'Optimized API workflows to reduce generation time and improve content accuracy' could specify *how much* time was reduced or *by what percentage* accuracy improved. 'Built a secure, high-availability donation system' could mention the volume of transactions processed or the user base served."
+        },
+        {
+          "type": "improve",
+          "tip": "Contextualize Education",
+          "explanation": "The 'Education' section is minimal. For a Bachelor of Arts, it might be beneficial to briefly mention any relevant coursework, honors, or projects if applicable, especially if it relates to problem-solving, logic, or other transferable skills for software development. This helps bridge any perceived gap from a non-CS degree."
+        }
+      ]
+    },
+    "structure": {
+      "score": 90,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Logical Flow and Clear Sections",
+          "explanation": "The resume follows a standard and logical structure: contact info, summary, education, technical skills, projects, and extracurriculars. This makes it easy for recruiters to navigate and find information quickly."
+        },
+        {
+          "type": "good",
+          "tip": "Effective Use of White Space and Bullet Points",
+          "explanation": "The layout utilizes white space effectively, preventing the resume from appearing cluttered. Bullet points are consistently used for lists, enhancing readability and making key information stand out."
+        },
+        {
+          "type": "improve",
+          "tip": "Consider a More Conventional Font",
+          "explanation": "While the current font is legible, some highly stylized fonts can occasionally cause issues with older ATS systems or simply be less universally appealing. Opting for a more standard, professional sans-serif font (e.g., Calibri, Arial, Lato, Montserrat) can ensure maximum compatibility and readability."
+        },
+        {
+          "type": "improve",
+          "tip": "Consistent Link Presentation",
+          "explanation": "For the 'Source Code' and 'Live Demo' links, ensure consistent styling. Currently, 'Source Code' is often followed by a dash and then 'Live Demo'. If both are always present, consider a consistent separator or placing them directly adjacent. Also, ensure the hyperlinks are correctly embedded and functional for all projects."
+        }
+      ]
+    },
+    "skills": {
+      "score": 95,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Comprehensive and Relevant Skill Set",
+          "explanation": "The 'Technical Skills' section is excellent. It lists a wide array of relevant full-stack technologies, databases, cloud platforms, and tools, demonstrating a robust and modern skill set for a software developer."
+        },
+        {
+          "type": "good",
+          "tip": "Well-Categorized Skills",
+          "explanation": "Categorizing skills into 'Web Technologies', 'Frontend Frameworks & Styling', 'Backend & APIs', 'Database', 'Cloud & DevOps', and 'Tools' significantly enhances readability and helps recruiters quickly identify specific areas of expertise."
+        },
+        {
+          "type": "improve",
+          "tip": "Prioritize Skills Based on Job Description",
+          "explanation": "While the current list is comprehensive, for specific job applications, consider reordering or highlighting skills that are explicitly mentioned or highly desired in the job description. This brings the most relevant skills to the forefront for ATS and human readers."
+        },
+        {
+          "type": "improve",
+          "tip": "Indicate Proficiency Levels (Optional but useful)",
+          "explanation": "While not strictly necessary, sometimes indicating proficiency levels (e.g., 'Proficient', 'Familiar', or 'Expert') for certain technologies can provide more context, especially for niche skills. This is optional and depends on personal preference and space availability."
+        }
+      ]
+    }
+  },
+  "createdAt": "2026-01-15T17:57:10.264Z"
+}
