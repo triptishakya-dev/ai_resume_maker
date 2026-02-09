@@ -30,10 +30,16 @@ const Page = () => {
       });
 
       if (response.ok) {
-        const data = await response.json();
-        console.log("Success:", data);
+        const result = await response.json();
+        console.log("Success:", result);
         setStatusText("Analysis Complete");
-        router.push(`/resume/${data.id}`);
+        
+        // Extract the ID from the nested data structure
+        const resumeId = result.data.id;
+        console.log("Resume ID:", resumeId);
+        
+        // Redirect to the resume page
+        router.push(`/resume/${resumeId}`);
       } else {
         console.error("Error:", response.statusText);
         setStatusText("Failed to analyze resume.");
